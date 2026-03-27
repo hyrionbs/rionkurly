@@ -1,5 +1,12 @@
+import Header from "../layouts/header"
+
+
 function Home() {
-  return <h1>홈페이지</h1>;
+  return (
+    <div>
+      <Header />
+    </div>
+  )
 }
 
 export default Home;
