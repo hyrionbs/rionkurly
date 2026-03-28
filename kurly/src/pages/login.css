@@ -4,3 +4,15 @@
     background-color: blueviolet;
     margin: 0;
 }
+.loginText {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: #333;
+}
+
+.loginInput{
+    height: 54px;
+    font-size: 14px;
+}
