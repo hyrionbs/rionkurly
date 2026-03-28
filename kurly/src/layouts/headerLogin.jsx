@@ -6,11 +6,18 @@ function HeaderLogin() {
 
 
   return (
-    <div>
-      <Link to="/login">로그인</Link>
-      <Link to="/signup">회원가입</Link>
+    <div className="login">
+
+      <Link to="/login" id="loginA">회원가입</Link>
+      <div className="HeaderLoginBar"></div>
+      <Link to="/signup">로그인</Link>
+      <div className="HeaderLoginBar"></div>
       <div className="CustomerDropbox">
-        <Link to="/customer">고객센터</Link>
+        <Link to="/customer" className="Customer">
+          고객센터
+          <span className="CustomerIcon"></span>
+        </Link>
+
         <div className="CustomerDropboxIn">
           <a href="">공지사항</a>
           <a href="">자주하는 질문</a>
