@@ -6,7 +6,7 @@ function Login() {
     <div class ="loginHD">
       <h1>Header</h1>
     </div>
-  <div class="login">
+  <div class="loginPage">
     <div>
       <p class="loginText">로그인</p>
     </div>
@@ -26,7 +26,7 @@ function Login() {
           <button class="signBtn">회원가입</button>
         </div>
         <div>
-          <p class="loginText">로그인</p>
+          <p class="loginText">간편 로그인</p>
           <div class="NKlogin">
             <button class="NaverloginBtn">네이버로 계산하기</button>
             <button class="KakaologinBtn">카카오로 계속하기</button>

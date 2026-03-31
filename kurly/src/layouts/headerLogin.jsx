@@ -8,9 +8,9 @@ function HeaderLogin() {
   return (
     <div className="login">
 
-      <Link to="/login" id="loginA">회원가입</Link>
+      <Link to="/signup" id="loginA">회원가입</Link>
       <div className="HeaderLoginBar"></div>
-      <Link to="/signup">로그인</Link>
+      <Link to="/login">로그인</Link>
       <div className="HeaderLoginBar"></div>
       <div className="CustomerDropbox">
         <Link to="/customer" className="Customer">
