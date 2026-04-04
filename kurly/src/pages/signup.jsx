@@ -2,7 +2,12 @@ import "./signup.css";
 
 
 function signup() {
-  return <h1>회원가입</h1>;
+  return 
+  <div>
+    
+      <h1>Header</h1>
+    
+  </div>
 }
 
 export default signup;
