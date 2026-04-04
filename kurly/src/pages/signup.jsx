@@ -4,9 +4,68 @@ import "./signup.css";
 function signup() {
   return 
   <div>
-    
-      <h1>Header</h1>
-    
+      dkssud
+      <div>
+        <p>회원가입</p>
+      </div>
+      <div className="aa">
+        <span>*</span>회원가입
+      </div>
+
+      <div>
+        <div>
+          아이디<span>*</span>
+        </div>
+        <div>
+          <input type="text" placeholder="아이디를 입력해주세요." />
+        </div>
+        <div></div>
+      </div>
+
+      <div>
+        <div>
+          비밀번호<span>*</span>
+        </div>
+        <div>
+          <input type="password" placeholder="비밀번호를 입력해주세요." />
+        </div>
+        <div></div>
+      </div>
+
+      <div>
+        <div>
+          비밀번호 확인<span>*</span>
+        </div>
+        <div>
+          <input type="password" placeholder="비밀번호를 한번 더 입력해주세요." />
+        </div>
+        <div></div>
+      </div>
+
+      <div>
+        <div>
+          이름<span>*</span>
+        </div>
+        <div>
+          <input type="text" placeholder="이름을 입력해주세요." />
+        </div>
+        <div></div>
+      </div>
+
+      <div>
+        <div>
+          이메일<span>*</span>
+        </div>
+        <div>
+          <input type="email" placeholder="아이디를 입력해주세요." />
+        </div>
+        <div></div>
+      </div>
+
+
+      <div>
+        <div></div>
+      </div>
   </div>
 }
 
